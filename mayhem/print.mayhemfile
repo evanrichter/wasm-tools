@@ -1,0 +1,7 @@
+project: wasm-tools
+target: print
+
+cmds:
+  - cmd: /print
+  - cmd: /print_no_inst @@
+    libfuzzer: false

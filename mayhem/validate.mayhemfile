@@ -1,0 +1,7 @@
+project: wasm-tools
+target: validate
+
+cmds:
+  - cmd: /validate
+  - cmd: /validate_no_inst @@
+    libfuzzer: false

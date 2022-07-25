@@ -1,0 +1,7 @@
+project: wasm-tools
+target: mutate
+
+cmds:
+  - cmd: /mutate
+  - cmd: /mutate_no_inst @@
+    libfuzzer: false
